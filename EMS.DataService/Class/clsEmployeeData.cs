@@ -88,7 +88,9 @@ namespace EMS.DataService.Data
                     emp.Gender = (int)Reader["Gender"];
                     emp.Hobbies = Reader["Hobbies"].ToString();
                     emp.DepartmentName = Reader["DepartmentName"].ToString();
+                    emp.DeptId = (int)Reader["DeptId"];
                     emp.DesignationName = Reader["DesignationName"].ToString();
+                    emp.DesgnId = (int)Reader["DesgnId"];
                 }
             }
             catch (Exception ex)
