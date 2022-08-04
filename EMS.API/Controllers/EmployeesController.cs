@@ -12,7 +12,7 @@ namespace EMS.API.Controllers
     [ApiController]
     public class EmployeesController : ControllerBase
     {
-        private readonly IEmployeeService _EmployeeService;
+        private readonly IEmployeeService _EmployeeService;     
         public EmployeesController(IEmployeeService EmployeeService)
         {
             this._EmployeeService = EmployeeService;
